@@ -12,7 +12,7 @@
 .fan-heading h2 em{color:#fff}
 .fan-stage{position:relative;width:100%;height:min(45svh,420px);display:grid;place-items:center;flex:none}
 .fan-card{position:absolute;width:clamp(140px,24vw,280px);height:100%;border:3px solid #fff;background:#111;box-shadow:0 12px 35px #0008;will-change:transform}
-.fan-card img{filter:grayscale(1);object-position:center}
+.fan-card img{object-position:center}
 .fan-center{z-index:10;border-color:#fff;box-shadow:0 20px 50px #0009,0 0 55px #a61d2a30}
 .fan-caption{display:flex;flex-direction:column;align-items:center;gap:16px;font-size:8px;letter-spacing:2px;text-align:center;z-index:12}
 .fan-rule{width:42px;height:2px;background:var(--red)}
