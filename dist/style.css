@@ -64,3 +64,8 @@
 @keyframes expose-line{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @supports(animation-timeline:view()){ @media(prefers-reduced-motion:no-preference){.notes-list article:before{animation:expose-line linear both;animation-timeline:view();animation-range:entry 0% cover 45%}}}
 @media(max-width:760px){.fieldnotes{grid-template-columns:1fr;gap:1rem}.notes-title{position:static}.notes-list article{padding:1.5rem 0 2rem}}
+
+/* Preserve the supplied bridal photograph's rich reds and warm natural tones. */
+.hero-image img{filter:saturate(1.06) contrast(1.03) brightness(.92);object-position:62% 54%}
+.shade{background:linear-gradient(90deg,rgba(10,5,5,.38),rgba(10,5,5,.08) 65%),linear-gradient(180deg,rgba(0,0,0,.24),transparent 38%,rgba(0,0,0,.32))}
+@media(max-width:700px){.hero-image img{object-position:62% center}}
